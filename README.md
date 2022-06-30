@@ -2,14 +2,14 @@
 
 Built with:
 
-- Rust
+- [Rust](https://www.rust-lang.org/)
 - [wasm-pack](https://rustwasm.github.io/docs/wasm-pack/)
 
 # Steps to create and build
 
 1. Develop: Add code to `lib.rs`
 2. Build: Run `wasm-pack build --target web` from the project root
-3. Import and run code in JavaScript:
+3. Import and run code in JavaScript (`index.html`):
 
 ```
     <script type="module">
